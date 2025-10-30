@@ -9,13 +9,16 @@ export default function TentangPage() {
           Sistem pakar ini dirancang untuk membantu pengguna dalam mendeteksi kemungkinan penyakit berdasarkan gejala yang mereka alami.
           Dengan menggunakan basis pengetahuan yang disimpan di <strong>Supabase</strong>, sistem dapat menganalisis dan memberikan hasil diagnosa dengan cepat dan akurat.
         </p>
-        <h2 className="font-semibold text-lg mt-6">Dibuat Oleh:</h2>
-        <p>Nikolas Triputra Mentari (2301020013)</p>
+        <h1 className="text-xl font-bold text-black mt-6">
+          <h2 >Dibuat Oleh:</h2>
+        <p>Nikolas Triputra Mentari</p>
         <p>Ghayana Arum</p>
+        </h1>
+        
 
         <Link
           href="/"
-          className="inline-block mt-4 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-all"
+         className="px-8 py-4 bg-blue-600 text-white rounded-full text-lg font-semibold shadow-lg hover:scale-105 hover:bg-blue-700 transition-all duration-300"
         >
           Kembali ke Beranda
         </Link>

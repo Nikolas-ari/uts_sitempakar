@@ -92,7 +92,7 @@ export default function DiagnosaPage() {
               placeholder="Nama kamu"
               value={nama}
               onChange={(e) => setNama(e.target.value)}
-              className="w-full p-3 border border-blue-200 rounded-xl focus:ring-2 focus:ring-blue-400 focus:outline-none"
+              className="text-black w-full p-3 border border-blue-200 rounded-xl focus:ring-2 focus:ring-blue-400 focus:outline-none"
               required
             />
 
@@ -135,12 +135,15 @@ export default function DiagnosaPage() {
               <h3 className="text-lg font-semibold text-blue-700 mb-2">
                 Hasil Diagnosa
               </h3>
-              <p>
+              <h4 className="text-lg text-black mb-2">
+                <p>
                 <strong>Penyakit:</strong> {hasil.penyakit}
               </p>
               <p>
                 <strong>Solusi:</strong> {hasil.solusi}
               </p>
+              </h4>
+              
             </div>
           )}
         </div>
